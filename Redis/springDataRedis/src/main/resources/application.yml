@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: 10.74.40.3
+    port: 6379
+    jedis:
+      pool:
+        # 最大空闲数
+        max-idle: 20
+        # 最小空闲数
+        min-idle: 5
+        # 最大连接数
+        max-active: 20
+        # 最大阻塞等待时间(负数表示没限制)
+        max-wait: -1
+
